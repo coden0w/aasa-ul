@@ -5,7 +5,7 @@
       {
         "appID": "93L3B2G32F.com.coden0w.test",
         "paths": [
-          "/test",
+          "/graph",
           "/path/to/content",
           "/another/path"
         ]
