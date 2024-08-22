@@ -4,9 +4,12 @@
     "details": [
       {
         "appID": "93L3B2G32F.com.coden0w.test",
-        "paths": [
-          "/path/to/content",
-          "/another/path"
+        "components": [
+          {
+            "/": "/push/*",
+            "?": { "encryptedToken": "????" },
+            "comment": "Matches any url whose path starts with /help/ and that has a query item iwth name 'encryptedToken' and a value of exactly 4 characters"
+          }
         ]
       }
     ]
