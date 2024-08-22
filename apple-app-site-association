@@ -4,10 +4,16 @@
     "details": [
       {
         "appID": "93L3B2G32F.com.coden0w.test",
-        "paths": [
-          "/test/*",
-          "/path/to/content",
-          "/another/path"
+        "components": [
+          {
+            "/": "/push",
+            "?": { "pushToken": "*"},
+            "comment": "Matches any url whose path starts with /push/ and that has a query item with name 'pushToken' and a value any charactres"
+          },
+          {
+            "/": "/app/*",
+            "comment": "Matches any url whose path starts with /app/"
+          }
         ]
       }
     ]
