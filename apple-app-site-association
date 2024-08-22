@@ -6,6 +6,11 @@
         "appID": "93L3B2G32F.com.coden0w.test",
         "components": [
           {
+            "/": "/a/",
+
+            "comment": "Matches any url whose path starts with /a/"
+          },
+          {
             "/": "/",
             "?": { "encryptedToken": "?*" },
             "comment": "Matches any url whose path starts with / and that has a query item iwth name 'encryptedToken' and a value of exactly 4 characters"
