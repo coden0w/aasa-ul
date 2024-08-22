@@ -4,10 +4,13 @@
     "details": [
       {
         "appID": "93L3B2G32F.com.coden0w.test",
+        "paths": [
+          "/b",
+          "/c"
+        ],
         "components": [
           {
             "/": "/a/",
-
             "comment": "Matches any url whose path starts with /a/"
           },
           {
