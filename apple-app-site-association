@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "93L3B2G32F.com.coden0w.test",
+        "paths": [
+          "/path/to/content",
+          "/another/path"
+        ]
+      }
+    ]
+  }
+}
